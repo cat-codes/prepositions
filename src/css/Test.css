@@ -1,0 +1,44 @@
+.test-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+.test-content-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 0px) {
+  .test-content-controls {
+    margin-top: 0;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .test-content-controls {
+    margin-top: 0.5rem;
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .test-content-controls {
+    margin-top: 1rem;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+.test-stats-results {
+  margin: 2rem;
+}
+.test-stats-results p {
+  margin: 5px;
+}
+.test-stats ol {
+  text-align: left;
+  gap: 1rem;
+}/*# sourceMappingURL=Test.css.map */

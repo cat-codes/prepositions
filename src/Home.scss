@@ -1,0 +1,34 @@
+@import "responsive";
+
+.home {
+  &-content {
+    display: flex;
+    @include mini {
+      height: 80%;
+    }
+    @include mobile {
+      height: 100%;
+    }
+    @include tablet {
+      height: 75%;
+    }
+    @include desktop {
+      height: fit-content;
+    }
+  }
+  &-content {
+    @include mini {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    @include tablet {
+      flex-direction: row;
+      gap: 3rem;
+    }
+    @include desktop {
+      gap: 5rem;
+    }
+  }
+}

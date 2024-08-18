@@ -1,0 +1,29 @@
+.select-btn {
+  padding: 1.5rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  border-width: 2px;
+}
+.select-btn.selected {
+  background-color: white;
+  color: black;
+}
+.select-btn:hover {
+  transform: scale(1.1);
+}
+@media (min-width: 0px) {
+  .select-btn {
+    margin: 0.5rem;
+  }
+}
+@media (min-width: 320px) {
+  .select-btn {
+    margin: 0.75rem;
+  }
+}
+@media (min-width: 768px) {
+  .select-btn {
+    margin: 1rem;
+  }
+}/*# sourceMappingURL=SelectBtn.css.map */

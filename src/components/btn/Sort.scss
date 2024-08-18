@@ -1,0 +1,53 @@
+@import "../../responsive";
+
+.sort {
+  position: relative;
+  display: inline-block;
+
+  &-btn {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+      @include mini {
+        margin-left: 0;
+      }
+      @include tablet {
+        margin-left: 0.25rem;
+      }
+      @include desktop {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  ul {
+    display: block;
+    position: absolute;
+    top: 39px;
+    left: -75%;
+    margin-block: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 0;
+    width: 250%;
+    background-color: #242424;
+
+    li {
+      padding: 0.5rem 1rem;
+      list-style-type: none;
+      border-bottom: 1px solid #ddd;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    }
+  }
+}

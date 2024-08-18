@@ -1,0 +1,56 @@
+@import "../../responsive";
+
+.filter {
+  position: relative;
+  display: inline-block;
+
+  &-btn {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      @include mini {
+        margin-left: 0;
+      }
+      @include tablet {
+        margin-left: 0.25rem;
+      }
+      @include desktop {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  &-menu {
+    display: block;
+    position: absolute;
+    top: 39px;
+    left: -50%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 0;
+    width: fit-content;
+    background-color: #242424;
+
+    &-group {
+      padding: 0.5rem 1rem;
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      select {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+      }
+    }
+  }
+}

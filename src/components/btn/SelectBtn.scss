@@ -1,0 +1,26 @@
+@import "../../responsive";
+
+.select-btn {
+  padding: 1.5rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  border-width: 2px;
+
+  &.selected {
+    background-color: white;
+    color: black;
+  }
+  &:hover {
+    transform: scale(1.1);
+  }
+  @include mini {
+    margin: 0.5rem;
+  }
+  @include mobile {
+    margin: 0.75rem;
+  }
+  @include tablet {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,8 @@
+.back {
+  display: flex;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  cursor: pointer;
+}/*# sourceMappingURL=Back.css.map */

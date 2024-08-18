@@ -1,0 +1,219 @@
+:root {
+  font-family: Nunito;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+@media (min-width: 0px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 320px) {
+  h1 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 0px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 320px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 320px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 0px) {
+  h3 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) {
+  h3 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 320px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 0px) {
+  p {
+    font-size: 10px;
+  }
+}
+@media (min-width: 320px) {
+  p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+button {
+  font-family: Nunito;
+  background: none;
+  border: none;
+  letter-spacing: 0.05rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+@media (min-width: 0px) {
+  button {
+    font-size: 10px;
+  }
+}
+@media (min-width: 320px) {
+  button {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  button {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  button {
+    font-size: 16px;
+  }
+}
+
+ol {
+  width: 100%;
+  margin: 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media (min-width: 0px) {
+  ol {
+    font-size: 10px;
+  }
+}
+@media (min-width: 320px) {
+  ol {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  ol {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  ol {
+    font-size: 16px;
+  }
+}
+
+li p {
+  margin: 0;
+  text-align: left;
+}
+@media (min-width: 0px) {
+  li p {
+    padding: 0.25rem;
+  }
+}
+@media (min-width: 768px) {
+  li p {
+    padding: 0.35rem;
+  }
+}
+@media (min-width: 1024px) {
+  li p {
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 0px) {
+  .svg {
+    scale: 0.5;
+  }
+}
+@media (min-width: 320px) {
+  .svg {
+    scale: 0.75;
+  }
+}
+@media (min-width: 320px) {
+  .svg {
+    scale: 0.85;
+  }
+}
+@media (min-width: 1024px) {
+  .svg {
+    scale: 1;
+  }
+}/*# sourceMappingURL=index.css.map */

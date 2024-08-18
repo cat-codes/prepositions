@@ -1,0 +1,10 @@
+.back {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}/*# sourceMappingURL=BackBtn.css.map */

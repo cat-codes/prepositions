@@ -1,0 +1,24 @@
+@import "responsive";
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  &-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  &-contents {
+    border-width: 2px 0 0;
+    border-style: solid;
+    @include mobile {
+      margin: 0.5rem 0;
+    }
+
+    @include desktop {
+      margin: 1rem 0;
+    }
+  }
+}

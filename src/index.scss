@@ -1,0 +1,173 @@
+@import "responsive";
+
+:root {
+  font-family: Nunito;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h1 {
+  @include mini {
+    font-size: 18px;
+  }
+  @include mobile {
+    font-size: 22px;
+  }
+  @include tablet {
+    font-size: 36px;
+  }
+  @include desktop {
+    font-size: 52px;
+  }
+}
+
+h2 {
+  @include mini {
+    font-size: 16px;
+  }
+  @include mobile {
+    font-size: 18px;
+  }
+  @include mobile {
+    font-size: 24px;
+  }
+  @include desktop {
+    font-size: 36px;
+  }
+}
+
+h3 {
+  @include mini {
+    font-size: 12px;
+  }
+  @include mobile {
+    font-size: 14px;
+  }
+  @include mobile {
+    font-size: 18px;
+  }
+  @include desktop {
+    font-size: 22px;
+  }
+}
+
+p {
+  @include mini {
+    font-size: 10px;
+  }
+  @include mobile {
+    font-size: 12px;
+  }
+  @include tablet {
+    font-size: 14px;
+  }
+  @include desktop {
+    font-size: 16px;
+  }
+}
+
+button {
+  font-family: Nunito;
+  background: none;
+  border: none;
+  letter-spacing: 0.05rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  @include mini {
+    font-size: 10px;
+  }
+  @include mobile {
+    font-size: 12px;
+  }
+  @include tablet {
+    font-size: 14px;
+  }
+  @include desktop {
+    font-size: 16px;
+  }
+}
+
+ol {
+  width: 100%;
+  margin: 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  @include mini {
+    font-size: 10px;
+  }
+  @include mobile {
+    font-size: 12px;
+  }
+  @include tablet {
+    font-size: 14px;
+  }
+  @include desktop {
+    font-size: 16px;
+  }
+}
+
+li {
+  p {
+    margin: 0;
+    text-align: left;
+    @include mini {
+      padding: 0.25rem;
+    }
+    @include tablet {
+      padding: 0.35rem;
+    }
+    @include desktop {
+      padding: 0.5rem;
+    }
+  }
+}
+
+.svg {
+  @include mini {
+    scale: 0.5;
+  }
+  @include mobile {
+    scale: 0.75;
+  }
+  @include mobile {
+    scale: 0.85;
+  }
+  @include desktop {
+    scale: 1;
+  }
+}
