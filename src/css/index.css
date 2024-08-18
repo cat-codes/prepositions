@@ -98,22 +98,22 @@ a {
 }
 
 @media (min-width: 0px) {
-  p, label, select {
+  p, label, select, input {
     font-size: 10px;
   }
 }
 @media (min-width: 320px) {
-  p, label, select {
+  p, label, select, input {
     font-size: 12px;
   }
 }
 @media (min-width: 768px) {
-  p, label, select {
+  p, label, select, input {
     font-size: 14px;
   }
 }
 @media (min-width: 1024px) {
-  p, label, select {
+  p, label, select, input {
     font-size: 16px;
   }
 }

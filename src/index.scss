@@ -83,7 +83,7 @@ h3 {
   }
 }
 
-p, label, select {
+p, label, select, input {
   @include mini {
     font-size: 10px;
   }
