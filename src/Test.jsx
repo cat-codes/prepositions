@@ -120,6 +120,7 @@ const Test = () => {
       ...prevScore,
       übersprungen: prevScore.übersprungen + 1,
     }));
+    setUserInput("");
   };
 
   //* Function to handle moving to the next example
@@ -199,7 +200,7 @@ const Test = () => {
     }
   };
 
-  // Calculate the current question number and how many questions are left
+  //* Calculate the current question number and how many questions are left
   const totalQuestions = examplesToShow.length;
   const currentQuestionNumber = currentIndex + 1;
 
