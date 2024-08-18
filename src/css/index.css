@@ -98,22 +98,22 @@ a {
 }
 
 @media (min-width: 0px) {
-  p {
+  p, label, select {
     font-size: 10px;
   }
 }
 @media (min-width: 320px) {
-  p {
+  p, label, select {
     font-size: 12px;
   }
 }
 @media (min-width: 768px) {
-  p {
+  p, label, select {
     font-size: 14px;
   }
 }
 @media (min-width: 1024px) {
-  p {
+  p, label, select {
     font-size: 16px;
   }
 }
@@ -147,7 +147,7 @@ button {
   }
 }
 
-ol {
+ol, ul {
   width: 100%;
   margin: 1rem;
   padding: 0;
@@ -157,44 +157,28 @@ ol {
   justify-content: center;
 }
 @media (min-width: 0px) {
-  ol {
+  ol, ul {
     font-size: 10px;
   }
 }
 @media (min-width: 320px) {
-  ol {
+  ol, ul {
     font-size: 12px;
   }
 }
 @media (min-width: 768px) {
-  ol {
+  ol, ul {
     font-size: 14px;
   }
 }
 @media (min-width: 1024px) {
-  ol {
+  ol, ul {
     font-size: 16px;
   }
 }
 
-li p {
-  margin: 0;
+li {
   text-align: left;
-}
-@media (min-width: 0px) {
-  li p {
-    padding: 0.25rem;
-  }
-}
-@media (min-width: 768px) {
-  li p {
-    padding: 0.35rem;
-  }
-}
-@media (min-width: 1024px) {
-  li p {
-    padding: 0.5rem;
-  }
 }
 
 @media (min-width: 0px) {

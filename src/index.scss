@@ -83,7 +83,7 @@ h3 {
   }
 }
 
-p {
+p, label, select {
   @include mini {
     font-size: 10px;
   }
@@ -119,7 +119,7 @@ button {
   }
 }
 
-ol {
+ol, ul {
   width: 100%;
   margin: 1rem;
   padding: 0;
@@ -142,19 +142,7 @@ ol {
 }
 
 li {
-  p {
-    margin: 0;
-    text-align: left;
-    @include mini {
-      padding: 0.25rem;
-    }
-    @include tablet {
-      padding: 0.35rem;
-    }
-    @include desktop {
-      padding: 0.5rem;
-    }
-  }
+  text-align: left;
 }
 
 .svg {
